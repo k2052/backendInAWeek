@@ -1,0 +1,126 @@
+#intro-block
+  #intro.location
+    h1 I'll build your backend in a Week
+    markdown:
+        A documented, tested, modular, REST, [json:api](http://jsonapi.org) conforming backend for 
+        your app; delivered in *7 days* for under *$3500*.
+    .links
+      a.icon-mail href="mailto:k@2052.me" title="Email"
+      a.icon-github.sample-backend href="https://github.com/k2052/afraidTODO.api" title="View a Sample Backend"
+
+article#about.location
+  .content
+    markdown:
+      # About your backend
+
+      Your backend will be in Ruby. It will be powered by [Grape](http://intridea.github.io/grape/) a 
+      minimalist web framework with a powerful DSL for expressing APIs. 
+      Tests will be written using [RSpec](http://rspec.info). Test fixtures will be created using 
+      [FactoryGirl](https://github.com/thoughtbot/factory_girl). Any external API calls will be mocked using 
+      [WebMock](https://github.com/bblimke/webmock) and or cached using [VCR](https://github.com/vcr/vcr). 
+
+      If background jobs are needed they will be written as 
+      [Imperator](https://github.com/karmajunkie/imperator) commands and then run with either 
+      [Resque](https://github.com/resque/resque) or [Sidekiq](https://github.com/mperham/sidekiq). 
+      JSON responses will be done using [Oat](https://github.com/ismasan/oat). You will have your choice of a 
+      data store and ORM; MongoMapper, ToyStore, Mongoid, DataMapper or NoBrainer. 
+
+      Your API will conform to [json:api](http://jsonapi.org). It will be designed to be consumed as easily 
+      from the web as from mobile. It will be discoverable (think HATEOAS) and data will be as denormalized 
+      as possible. It will use tokens for authentication not cookies. 
+      It will be documented with [API Blueprint](http://apiblueprint.org/) and tested 
+      using [Dredd](https://github.com/apiaryio/dredd).
+
+      I believe in separation of concerns, slim models and clean controllers. You wont find your backend 
+      polluted with logic in places where it doesn't belong. What you will find is a lot of interactors, 
+      value objects, commands, policies, and decorators. 
+      I believe in a readable codebase; if dogma gets in the way of that I throw it out quickly and go with 
+      what is more readable. 
+      I don't use a pattern when the codebase is cleaner without it. Patterns are just tools.
+
+article#process.location
+  .content
+    h1 Process
+    .section.blueprint
+      h2 API Blueprint
+
+      markdown:
+        The process starts by documenting the API with an [API Blueprint](http://apiblueprint.org).
+        Ideally, you will have already written this and provide it to me.
+        For an extra fee I will write them for you.
+
+        Why do I start with API docs?
+
+        1. It provides a guide mark for completion. How much of the API is passing is a good indicator of how 
+           much progress has been made. If something from the API spec is not built yet 
+           then the backend is not done. The project is not considered complete (no matter how much else is done) until the API is fully covered by tests and those tests are passing.
+        2. You can build your app independently of its backend then when its ready swap out the mocks for the 
+           real thing.
+        3. It serves to scope the project and clearly lay out what we are agreeing on. 
+        4. Helps future developers and you know how everything works. Forgotten how a part of your backend 
+           works? Need to get a developer up to speed? Just consult the documentation.
+
+    .section.timeline
+      h2 Quote and Timeline
+
+      markdown:
+        I will review your api docs, ask any questions I might have, then give you an estimated start 
+        time and cost. I tackle only one freelance project at a time so you can count on my full attention 
+        from start to finish.
+
+    .section.payment
+        h2 50% Upfront
+        
+        markdown:
+          Once I'm ready to start I'll ask you for 50% upfront and then I'll begin working as soon as payment 
+          is received. I accept payment via Google Wallet, Simple Instant, Square Cash, and Bitcoin; and only 
+          if absolutely necessary, Paypal.
+
+    .section.foundation
+      h2 Repos, Demo Server and CI setup
+    
+      markdown:
+        I believe in the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html). I start out 
+        by creating an app skeleton that works and is easily; deployed, tested, monitored 
+        and analyzed. First, I setup a Github repo, a deploy/build script, a foreman env file, Travis CI 
+        scripts, rake tasks for running tests etc. I add Travis CI, Gemnasium, Coveralls and Code Climate to 
+        every project. I don't start coding until the README is full of green badges.
+
+    .section.rapid-commits
+      h2 Hourly Commits
+
+      markdown:
+        I believe in semantic versioning, test driven development, an always working master branch and 
+        breaking things as soon as possible. You'll be able to glance at the commit log and see actual 
+        progress hourly. At any time you'll be able to checkout the master branch and have it work; checkout 
+        the broken branch and see bugs being worked on etc. 
+        No wondering what is happening, waiting on emails, or feeling anxious about checking in, 
+        you only need to look at the repo and you will know what the status is.
+
+    .section.finished
+      h2 Delivery, Review and Final Payment
+
+      markdown:
+        When Dredd is fully passing, all the rspecs fly, and all the badges are green, I will send you an 
+        email asking for review. Once you have reviewed things and we both agree things are done, then the 
+        final 50% is paid. Then we hi-five!
+
+article#faq.location
+  .content
+    markdown:
+      # FAQ
+
+      ## How will I deploy my backend?
+
+      You'll receive an app with a Procfile, build/deploy script (dokku) and an example .env file. All you'll 
+      have to do is setup your env file, run the build scripts, and then it's as easy as git push. The app 
+      will be tested with both Heroku and Dokku (on DigitalOcean).
+
+#contact.location
+  .content
+    p 
+      | interested? drop me a line 
+      a href="mailto:k@2052.me" k@2052.me
+
+footer
+  .logo
