@@ -1,22 +1,28 @@
-Bundler.require ENV['RACK_ENV'] || :development
+require "rubygems"
 
-require './app'
-require 'sprockets'
-require "sprockets-sass"
-require 'compass'
+require "rack"
+require "middleman/rack"
+require "rack/contrib/try_static"
 
-map '/assets' do
-  env = Sprockets::Environment.new
-  env.append_path './assets/css'
-  env.append_path './assets/vendor/css'
-  
-  env.append_path 'assets/js'
-  env.append_path 'assets/vendor/js'
-  
-  env.append_path 'bower_components'
-  run env
-end
+# Build the static site when the app boots
+`bundle exec middleman build`
 
-map '/' do
-	run App
-end
+# Enable proper HEAD responses
+use Rack::Head
+# Attempt to serve static HTML files
+use Rack::TryStatic,
+    :root => "build",
+    :urls => %w[/],
+    :try => ['.html', 'index.html', '/index.html']
+
+# Serve a 404 page if all else fails
+run lambda { |env|
+  [
+    404,
+    {
+      "Content-Type"  => "text/html",
+      "Cache-Control" => "public, max-age=60"
+    },
+    File.open("build/404.html", File::RDONLY)
+  ]
+}
