@@ -1,0 +1,686 @@
+@charset "UTF-8";
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s; }
+
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.animated.hinge {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeInTOC {
+  0% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes fadeInTOC {
+  0% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+@keyframes fadeInTOC {
+  0% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+/* line 35, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  -moz-animation-name: fadeIn;
+  -o-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@-moz-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0); } }
+@-o-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+/* line 89, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  -moz-animation-name: fadeInDown;
+  -o-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+@-moz-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0); } }
+@-o-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0); } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+/* line 143, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  -moz-animation-name: fadeInLeft;
+  -o-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; }
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@-moz-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateY(0); } }
+@-o-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateY(0); } }
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+/* line 197, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  -moz-animation-name: fadeInDownBig;
+  -o-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig; }
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0); } }
+@-moz-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -moz-transform: translateX(-2000px); }
+  100% {
+    opacity: 1;
+    -moz-transform: translateX(0); } }
+@-o-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -o-transform: translateX(-2000px); }
+  100% {
+    opacity: 1;
+    -o-transform: translateX(0); } }
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+/* line 248, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  -moz-animation-name: fadeInLeftBig;
+  -o-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig; }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+/* line 274, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  -moz-animation-name: fadeOut;
+  -o-animation-name: fadeOut;
+  animation-name: fadeOut; }
+
+@-webkit-keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(20px); } }
+@-moz-keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -moz-transform: translateY(20px); } }
+@-o-keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    -o-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -o-transform: translateY(20px); } }
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(20px); } }
+/* line 328, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  -moz-animation-name: fadeOutDown;
+  -o-animation-name: fadeOutDown;
+  animation-name: fadeOutDown; }
+
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px); } }
+@-moz-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(-20px); } }
+@-o-keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -o-transform: translateX(-20px); } }
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0); }
+  100% {
+    opacity: 0;
+    transform: translateX(-20px); } }
+/* line 382, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  -moz-animation-name: fadeOutLeft;
+  -o-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft; }
+
+@-webkit-keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px); } }
+@-moz-keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    -moz-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -moz-transform: translateY(2000px); } }
+@-o-keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    -o-transform: translateY(0); }
+  100% {
+    opacity: 0;
+    -o-transform: translateY(2000px); } }
+@keyframes fadeOutDownBig {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(2000px); } }
+/* line 436, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeOutDownBig {
+  -webkit-animation-name: fadeOutDownBig;
+  -moz-animation-name: fadeOutDownBig;
+  -o-animation-name: fadeOutDownBig;
+  animation-name: fadeOutDownBig; }
+
+@-webkit-keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px); } }
+@-moz-keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    -moz-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -moz-transform: translateX(-2000px); } }
+@-o-keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    -o-transform: translateX(0); }
+  100% {
+    opacity: 0;
+    -o-transform: translateX(-2000px); } }
+@keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1;
+    transform: translateX(0); }
+  100% {
+    opacity: 0;
+    transform: translateX(-2000px); } }
+/* line 490, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_animations.css */
+.fadeOutLeftBig {
+  -webkit-animation-name: fadeOutLeftBig;
+  -moz-animation-name: fadeOutLeftBig;
+  -o-animation-name: fadeOutLeftBig;
+  animation-name: fadeOutLeftBig; }
+
+/* line 8, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+html {
+  font-weight: 200;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: "Titillium Web", sans-serif;
+  color: #393b47;
+  font-weight: 400; }
+
+/* line 16, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+body {
+  font-size: 100%;
+  background-color: white; }
+
+/* line 20, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+p {
+  margin: 0.8em 0; }
+
+/* line 23, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+a {
+  font-family: "Titillium Web", sans-serif;
+  color: #3eb1d0;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
+  font-weight: 300;
+  outline: 0; }
+  /* line 30, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+  a:hover, a:focus {
+    color: #0fcbff;
+    text-decoration: none; }
+
+/* line 35, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h1, h2, h3, h4, h5, h6 {
+  color: #29292e;
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: 1.8;
+  font-family: "Titillium Web", sans-serif;
+  margin: 0; }
+
+/* line 43, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h1 {
+  color: #393b47;
+  text-align: center;
+  font-size: 4rem; }
+
+/* line 48, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h2 {
+  font-size: 2rem; }
+
+/* line 51, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h3 {
+  font-size: 1.6rem; }
+
+/* line 54, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h4 {
+  font-size: 1.46667rem; }
+
+/* line 57, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h5 {
+  font-size: 1.2rem; }
+
+/* line 60, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+h6 {
+  font-size: 0.93333rem; }
+
+/* line 63, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+hr {
+  height: 1px;
+  background: #e0e0e0;
+  border: 0; }
+
+/* line 68, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+blockquote {
+  border-left: 5px solid #cccccc;
+  margin-left: 0;
+  padding: 1px 0 1px 1em; }
+
+/* line 73, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+blockquote p {
+  font-family: "Ubuntu Mono", Menlo, Consolas, Monaco, monospace;
+  font-size: 0.93333rem/15pxrem;
+  color: #999999;
+  margin: 10px 0 0;
+  white-space: pre-wrap; }
+
+/* line 80, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+pre, code {
+  font-family: "Ubuntu Mono", Menlo, Consolas, Monaco, monospace;
+  font-size: 15px;
+  max-height: 400px;
+  overflow: auto;
+  line-height: 1.8; }
+
+/* line 87, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+b, strong {
+  font-weight: 700; }
+
+/* line 90, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+em {
+  font-weight: 600;
+  font-style: italic; }
+
+/* line 94, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+.small {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+  color: #35393b;
+  letter-spacing: 3px;
+  font-size: 0.8rem; }
+
+/* line 103, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_base.sass */
+.datetime {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #35393b;
+  font-style: italic;
+  font-weight: 600; }
+
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_layout.sass */
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_layout.sass */
+.logo-wrap {
+  max-width: 840px;
+  padding: 0 40px 0 40px;
+  margin: 0 auto; }
+
+/* line 10, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_layout.sass */
+.content {
+  max-width: 840px;
+  padding: 0 40px 40px 40px;
+  margin: 0 auto; }
+
+/* line 16, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_layout.sass */
+article .content {
+  padding: 20px 40px 10px 40px; }
+
+@font-face {
+  font-family: 'fontello';
+  src: url("/fonts/fontello.eot?10045234");
+  src: url("/fonts/fontello.eot?10045234#iefix") format("embedded-opentype"), url("/fonts/fontello.woff?10045234") format("woff"), url("/fonts/fontello.ttf?10045234") format("truetype"), url("/fonts/fontello.svg?10045234#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 12, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_fonts.scss */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 43, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_fonts.scss */
+.icon-mail:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 44, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/core/_fonts.scss */
+.icon-github:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_about.sass */
+#about {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  background: #2e3243;
+  color: #a1a6bf; }
+  /* line 6, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_about.sass */
+  #about h1, #about h2 {
+    color: #fff; }
+
+/* line 2, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_article.sass */
+article h1 {
+  text-align: left;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 100; }
+
+/* line 8, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_article.sass */
+#faq {
+  border-top: 1px solid rgba(45, 49, 67, 0.2);
+  background-color: #ecedee;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZDZkOSIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2Y5ZjdmYSIgc3RvcC1vcGFjaXR5PSIwLjIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGRkZTQiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(216, 214, 217, 0.5)), color-stop(46%, rgba(249, 247, 250, 0.2)), color-stop(100%, rgba(224, 221, 228, 0.2)));
+  background: -moz-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: -webkit-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%); }
+
+/* line 13, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_article.sass */
+footer {
+  background-color: #ecedee;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZDZkOSIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2Y5ZjdmYSIgc3RvcC1vcGFjaXR5PSIwLjIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGRkZTQiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(216, 214, 217, 0.5)), color-stop(46%, rgba(249, 247, 250, 0.2)), color-stop(100%, rgba(224, 221, 228, 0.2)));
+  background: -moz-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: -webkit-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  margin-top: -20px; }
+  /* line 18, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_article.sass */
+  footer .logo {
+    position: relative;
+    z-index: 100;
+    top: -50px; }
+
+/* line 23, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_article.sass */
+#contact {
+  border-top: 1px solid rgba(45, 49, 67, 0.2);
+  background-color: rgba(236, 237, 238, 0.6);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q4ZDZkOSIgc3RvcC1vcGFjaXR5PSIwLjUiLz48c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2Y5ZjdmYSIgc3RvcC1vcGFjaXR5PSIwLjIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMGRkZTQiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(216, 214, 217, 0.5)), color-stop(46%, rgba(249, 247, 250, 0.2)), color-stop(100%, rgba(224, 221, 228, 0.2)));
+  background: -moz-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: -webkit-linear-gradient(top, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  background: linear-gradient(to bottom, rgba(216, 214, 217, 0.5) 0%, rgba(249, 247, 250, 0.2) 46%, rgba(224, 221, 228, 0.2) 100%);
+  color: #656d95;
+  font-size: 1.66667rem;
+  padding-top: 14px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-weight: 200; }
+
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_buttons.sass */
+.button {
+  text-align: center;
+  border-radius: 2em;
+  padding: 1em 26px;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  transition: all 0.25s ease 0s;
+  background: linear-gradient(#3eb1d0 0px, #0fcbff 60px) no-repeat scroll 0% 0% #3eb1d0;
+  text-transform: uppercase;
+  border-width: medium medium 3px;
+  border-style: none none solid;
+  border-color: #002c38; }
+
+/* line 17, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_buttons.sass */
+.button:hover {
+  color: #fff;
+  background-color: #0fcbff; }
+
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+#intro-block {
+  background: url("/images/space-bg.jpg") no-repeat scroll 0% 0%/cover transparent;
+  background-color: #010409;
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-size: 2rem; }
+  /* line 9, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+  #intro-block .links {
+    max-width: 840px;
+    text-align: center;
+    font-size: 2.4rem; }
+    /* line 14, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+    #intro-block .links a {
+      color: white;
+      display: inline;
+      opacity: 0.7; }
+    /* line 19, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+    #intro-block .links a:hover {
+      opacity: 1; }
+  /* line 22, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+  #intro-block #intro {
+    max-width: 840px;
+    padding: 0 40px 20px 40px;
+    margin: 0 auto;
+    text-align: center; }
+  /* line 28, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+  #intro-block p {
+    margin: 20px 0 0 0; }
+  /* line 31, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_intro.sass */
+  #intro-block h1 {
+    color: #fff;
+    font-size: 3.33333rem;
+    margin-bottom: 0;
+    line-height: 1.5em; }
+
+/* line 1, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_logo.sass */
+.logo {
+  display: block;
+  width: 189px;
+  height: 132px;
+  background: url("/images/logo.png");
+  text-indent: -9999px;
+  margin: 0 auto 0 auto;
+  z-index: 100; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 11, /home/k2052/Dropbox/creations/backendInAWeek/source/stylesheets/modules/_logo.sass */
+  .logo {
+    width: 377px;
+    height: 263px;
+    background: url("/images/logo@2x.png"); } }
